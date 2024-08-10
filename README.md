@@ -67,6 +67,7 @@ Step1) Install MicroPython Firmware:
 * Use a tool like esptool.py to flash the firmware onto the board:
 
     esptool.py --chip esp32s3 --port /dev/ttyUSB0 erase_flash
+  
     esptool.py --chip esp32s3 --port /dev/ttyUSB0 --baud 460800 write_flash -z 0x1000 esp32s3-2023xxxx-v1.19.x.bin
 
 * Replace /dev/ttyUSB0 with the appropriate serial port on your computer.
