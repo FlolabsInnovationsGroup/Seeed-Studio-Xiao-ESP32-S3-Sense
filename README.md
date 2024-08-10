@@ -4,6 +4,7 @@ This is the introductory software for the Seeed Studio Xiao ESP32-Sense3 Microco
 The Seeed Studio Xiao ESP32-S3 Sense is a compact microcontroller board designed for IoT (Internet of Things) and AI applications. It's part of the Seeed Studio Xiao series, known for its small size and powerful features. The Xiao ESP32-S3 Sense is particularly well-suited for projects that require wireless communication, sensor data processing, and machine learning capabilities, thanks to its integration of the ESP32-S3 chip.
 
 Key Features:
+
 ESP32-S3 Chip:
 
 * CPU: Dual-core Xtensa® LX7 with a maximum clock frequency of 240 MHz.
