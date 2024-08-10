@@ -56,3 +56,28 @@ Key Features:
 
 * Seeed Studio Xiao ESP32-S3 Sense Wiki: Comprehensive documentation for getting started, including tutorials and examples.
 * Espressif's Official ESP32-S3 Documentation: Detailed information on the ESP32-S3 chip, including hardware reference, software development guides, and APIs.
+
+# Getting Started with MicroPython on the Xiao ESP32-S3 Sense:
+
+Installation:
+
+Step1) Install MicroPython Firmware:
+
+* Download the MicroPython firmware for ESP32-S3 from the official MicroPython download page.
+* Use a tool like esptool.py to flash the firmware onto the board:
+
+    esptool.py --chip esp32s3 --port /dev/ttyUSB0 erase_flash
+    esptool.py --chip esp32s3 --port /dev/ttyUSB0 --baud 460800 write_flash -z 0x1000 esp32s3-2023xxxx-v1.19.x.bin
+
+* Replace /dev/ttyUSB0 with the appropriate serial port on your computer.
+  
+Step2) Connect to the Board:
+
+* Use a serial terminal like screen, minicom, or the built-in REPL in tools like Thonny or Mu Editor to interact with the board.
+* Example to connect using screen:
+
+    screen /dev/ttyUSB0 115200
+
+
+
+    
